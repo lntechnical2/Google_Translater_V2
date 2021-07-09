@@ -28,3 +28,34 @@ keybord1= InlineKeyboardMarkup( [
 	[InlineKeyboardButton(" Next --->",callback_data = "page2")
 	]
 	] )
+
+keybord2= InlineKeyboardMarkup([
+           [InlineKeyboardButton("English",callback_data = "en"),
+           InlineKeyboardButton("Estonian",callback_data = "et"),
+           InlineKeyboardButton("Finnish",callback_data = "fi")
+           ],
+           [InlineKeyboardButton("French",callback_data = "fr"),
+           InlineKeyboardButton("Frisian",callback_data = "fy"),
+           InlineKeyboardButton("Galician",callback_data = "gl")
+           ],
+           [InlineKeyboardButton("Georgian",callback_data = "ka"),
+           InlineKeyboardButton("German",callback_data = "de"),
+           InlineKeyboardButton("Greek",callback_data = "el")
+           ],
+           [InlineKeyboardButton("Gujarati",callback_data = "gu"),
+           InlineKeyboardButton("Haitian Creole",callback_data = "ht"),
+           InlineKeyboardButton("Hausa",callback_data ="ha")
+           ],
+           [InlineKeyboardButton("Hindi",callback_data = "hi"),
+           InlineKeyboardButton("Hungarian",callback_data = "hu"),
+           InlineKeyboardButton("Icelandic",callback_data = "is")
+           ],
+           [InlineKeyboardButton("Igbo",callback_data = "ig"),
+           InlineKeyboardButton("Indonesian",callback_data = "id"),
+           InlineKeyboardButton("Irish",callback_data = "ga")
+           ],
+           [InlineKeyboardButton("<--- Back",callback_data = "page1"),
+           InlineKeyboardButton(" Next --->",callback_data = "page3"),
+           ]
+            ])
+		
