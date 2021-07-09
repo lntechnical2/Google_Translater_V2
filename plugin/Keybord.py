@@ -91,3 +91,36 @@ keybord3 = InlineKeyboardMarkup([
  
  ])
 
+keybord4 = InlineKeyboardMarkup([
+          [InlineKeyboardButton("Malayalam",callback_data = "ml"),
+          InlineKeyboardButton("Maltese",callback_data = "mt"),
+          InlineKeyboardButton("Maori",callback_data = "mi")
+          ],
+          [InlineKeyboardButton("Marathi",callback_data = "mr"),
+          InlineKeyboardButton("Mongolian",callback_data = "mn"),
+          InlineKeyboardButton("Myanmar (Burmese)",callback_data = "my")
+          ],
+          [InlineKeyboardButton("Nepali",callback_data ="ne"),
+          InlineKeyboardButton("Norwegian",callback_data = "no"),
+          InlineKeyboardButton("Nyanja (Chichewa)",callback_data = "ny")
+          ],
+          [InlineKeyboardButton("Odia",callback_data = "or"),
+          InlineKeyboardButton("Pashto",callback_data = "ps"),
+          InlineKeyboardButton("Persian",callback_data = "fa"),
+          ],
+          [InlineKeyboardButton("Polish",callback_data = "pl"),
+          InlineKeyboardButton("Portuguese",callback_data = "pt"),
+          InlineKeyboardButton("Punjabi",callback_data = "pa"),
+          ],
+          [InlineKeyboardButton("Romanian",callback_data = "ro"),
+          InlineKeyboardButton("Russian",callback_data = "ru"),
+          InlineKeyboardButton("Samoan",callback_data= "sm"),
+          ],
+          [InlineKeyboardButton("<--- Back",callback_data = "page3"),
+          InlineKeyboardButton("Next --->",callback_data = "page5")
+          ]
+          
+ 
+ 
+ 
+ ])
