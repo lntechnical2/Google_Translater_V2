@@ -1,4 +1,6 @@
 from pyrogram import Client, filters
+from googletrans import Translator
+
 
 @app.on_message(filters.group & filters.command(["tr"]))
 async def left(client,message):
