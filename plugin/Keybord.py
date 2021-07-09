@@ -153,3 +153,29 @@ keybord5 = InlineKeyboardMarkup([
          [InlineKeyboardButton("<--- Back",callback_data = "page4"),
          InlineKeyboardButton("Next --->",callback_data = "page6")
          ]  ])
+
+
+
+
+keybord6 =  InlineKeyboardMarkup([
+       [InlineKeyboardButton("Thai",callback_data = "th"),
+       InlineKeyboardButton("Turkish",callback_data = "tr"),
+       InlineKeyboardButton("Turkmen",callback_data ="tk")     
+       ],
+       [InlineKeyboardButton("Ukrainian",callback_data = "uk"),
+       InlineKeyboardButton("Urdu",callback_data = "ur"),
+       InlineKeyboardButton("Uyghur",callback_data ="ug")
+       
+       ],
+       [InlineKeyboardButton("Uzbek",callback_data = "uz"),
+       InlineKeyboardButton("Vietnamese",callback_data ="vi"),
+       InlineKeyboardButton("Welsh",callback_data = "cy")
+       
+       ],
+       [InlineKeyboardButton("Xhosa",callback_data = "xh"),
+       InlineKeyboardButton("Yiddish",callback_data = "yi"),
+       InlineKeyboardButton("Yoruba",callback_data = "yo")],
+       [InlineKeyboardButton("<--- Back",callback_data = "page5")
+       
+       ]
+ ])
