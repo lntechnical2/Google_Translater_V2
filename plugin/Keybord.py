@@ -1,3 +1,8 @@
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup
+)
+
 keybord1= InlineKeyboardMarkup( [
         [ 
             InlineKeyboardButton("Afrikaans", callback_data='af'),
