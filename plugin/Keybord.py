@@ -59,3 +59,35 @@ keybord2= InlineKeyboardMarkup([
            ]
             ])
 		
+keybord3 = InlineKeyboardMarkup([
+                [ InlineKeyboardButton("Italian",callback_data = "it"),
+                InlineKeyboardButton("Japanese",callback_data = "ja"),
+                InlineKeyboardButton("Javanese",callback_data = "jv")
+                ],
+                [InlineKeyboardButton("Kannada",callback_data = "kn"),
+                InlineKeyboardButton("Kazakh",callback_data = "kk"),
+                InlineKeyboardButton("Khmer",callback_data = "km")
+                ],
+                [InlineKeyboardButton("Kinyarwanda",callback_data = "rw"),
+                InlineKeyboardButton("Korean",callback_data ="ko"),
+                InlineKeyboardButton("Kurdish",callback_data = "ku")
+                ],
+                [ InlineKeyboardButton("Kyrgyz",callback_data ="ky"),
+                InlineKeyboardButton("Lao",callback_data = "lo"),
+                InlineKeyboardButton("Latin",callback_data = "la")
+                ],
+                [InlineKeyboardButton("Latvian",callback_data = "lv"),
+                InlineKeyboardButton('Lithuanian',callback_data ="lt"),
+                InlineKeyboardButton("Luxembourgish",callback_data = "lb")
+                ],
+                [InlineKeyboardButton("Macedonian",callback_data = "mk"),
+                InlineKeyboardButton("Malagasy",callback_data ="mg"),
+                InlineKeyboardButton("Malay",callback_data ="ms")
+                ],
+                [InlineKeyboardButton("<--- Back",callback_data = "page2"),
+                InlineKeyboardButton(" Next --->",callback_data = "page4")
+                ]
+              
+ 
+ ])
+
