@@ -3,8 +3,8 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-from helper.database import find , insert 
 
+from helper.database import find , insert 
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
@@ -88,7 +88,7 @@ async def translate_text(bot,update):
 	]
 	] )
 
-       keybord2= InlineKeyboardMarkup([
+      keybord2= InlineKeyboardMarkup([
            [InlineKeyboardButton("English",callback_data = "en"),
            InlineKeyboardButton("Estonian",callback_data = "et"),
            InlineKeyboardButton("Finnish",callback_data = "fi")
@@ -118,7 +118,7 @@ async def translate_text(bot,update):
            ]
             ])
 		
-       keybord3 = InlineKeyboardMarkup([
+      keybord3 = InlineKeyboardMarkup([
                 [ InlineKeyboardButton("Italian",callback_data = "it"),
                 InlineKeyboardButton("Japanese",callback_data = "ja"),
                 InlineKeyboardButton("Javanese",callback_data = "jv")
@@ -150,7 +150,7 @@ async def translate_text(bot,update):
  
  ])
 
-       keybord4 = InlineKeyboardMarkup([
+      keybord4 = InlineKeyboardMarkup([
           [InlineKeyboardButton("Malayalam",callback_data = "ml"),
           InlineKeyboardButton("Maltese",callback_data = "mt"),
           InlineKeyboardButton("Maori",callback_data = "mi")
@@ -184,7 +184,7 @@ async def translate_text(bot,update):
  
  ])
 
-       keybord5 = InlineKeyboardMarkup([
+      keybord5 = InlineKeyboardMarkup([
          [InlineKeyboardButton("Scots Gaelic",callback_data = "gd"),
          InlineKeyboardButton("Serbian",callback_data = "sr"),
          InlineKeyboardButton("Sesotho",callback_data = "st")
@@ -216,7 +216,7 @@ async def translate_text(bot,update):
 
 
 
-       keybord6 =  InlineKeyboardMarkup([
+      keybord6 =  InlineKeyboardMarkup([
        [InlineKeyboardButton("Thai",callback_data = "th"),
        InlineKeyboardButton("Turkish",callback_data = "tr"),
        InlineKeyboardButton("Turkmen",callback_data ="tk")     
