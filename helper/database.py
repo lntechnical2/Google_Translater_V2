@@ -8,7 +8,7 @@ db = mongo[DB_NAME]
 dbcol = db["USER"]
 
 def insert(chat_id):
-            user_id = chat_id
+            user_id = int(chat_id)
             user_det = {"_id":user_id,"lg_code":None}
             try:
             	dbcol.insert_one(user_det)
