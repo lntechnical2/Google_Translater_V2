@@ -30,5 +30,5 @@
 * DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
 
 
-[![How To Use ](http://i.imgur.com/dUYvenXiYKE.png)](https://youtu.be/dUYvenXiYKE-Y?t=35s "How To Use")
+[![How To Use ](https://i.ytimg.com/vi/dUYvenXiYKE/maxresdefault.jpg)](https://youtu.be/dUYvenXiYKE-Y?t=35s "How To Use")
 
