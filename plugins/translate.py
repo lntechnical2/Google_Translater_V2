@@ -4,9 +4,8 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 from helper.database import find , insert 
-from helper.keybord(
-Keybord1, keybord2, keybord3, keybord4, keybord5, keybord6
-)
+from helper.keybord import Keybord1, keybord2, keybord3, keybord4, keybord5, keybord6
+
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
