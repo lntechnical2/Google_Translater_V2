@@ -3,6 +3,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
+import database 
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
