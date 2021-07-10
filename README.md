@@ -8,6 +8,15 @@
 </p>
 </p>
 
+## Features
+
+* Supporting 100 More Languages 
+
+* You can Set Your Custom Languages 
+
+* Supporting in Group 
+
+
 ## Configs 
 
 * TG_BOT_TOKEN  - Get bot token from @BotFather
