@@ -8,7 +8,7 @@ from helper.database import find , insert
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-          insert(message.chat.id)
+          await insert(message.chat.id)
           await message.reply_text(
           text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",
           reply_to_message_id = message.message_id,
@@ -47,7 +47,7 @@ async def echo(client, message):
 	[InlineKeyboardButton(" Next --->",callback_data = "page2")
 	]
 	] )
-	code = find(message.chat.id)
+	code = await find(message.chat.id)
 	if code :
 			translator = Translator()
 			translation = translator.translate(message.text,dest = code)
