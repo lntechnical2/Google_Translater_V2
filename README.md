@@ -28,3 +28,7 @@
 * DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
 
 * DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
+
+
+[![How To Use ](http://i.imgur.com/dUYvenXiYKE.png)](https://youtu.be/dUYvenXiYKE-Y?t=35s "How To Use")
+
