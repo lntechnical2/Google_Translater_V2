@@ -3,8 +3,8 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-import database as data
-from list import list
+from .helper import database as data
+from .helper import list 
 
 @Clien.on_message(filters.private &filters.command(['unset']))
 async def unset(client,message):
