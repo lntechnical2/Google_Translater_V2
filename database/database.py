@@ -6,3 +6,4 @@ mongo = pymongo.MongoClient(DB_URL)
 db = mongo["User"]
 dbcol = db["Data"]
 
+Class Database:
