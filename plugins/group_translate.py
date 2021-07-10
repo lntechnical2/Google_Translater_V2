@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from googletrans import Translator
 
 
-@app.on_message(filters.group & filters.command(["tr"]))
+@Client.on_message(filters.group & filters.command(["tr"]))
 async def grouptrans(client,message):
 	if (message.reply_to_message):
 		try:
