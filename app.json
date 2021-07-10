@@ -27,7 +27,8 @@
         },
         "DB_NAME":{ 
                "description":"Your Mongo DB Database Name "
-        
+                "value": "my",
+                "required": false
         }
     },
     "buildpacks": [
