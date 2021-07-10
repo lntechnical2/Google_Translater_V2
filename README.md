@@ -12,10 +12,10 @@
 
 * TG_BOT_TOKEN  - Get bot token from @BotFather
 
-* API_ID        - From my.telegram.org (or @UseTGXBot)
+* API_ID        - From my.telegram.org 
 
-* API_HASH      - From my.telegram.org (or @UseTGXBot)
+* API_HASH      - From my.telegram.org 
 
 * DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
 
-* DATABASE_NAME  - Your database name from mongoDB. Default will be 'Cluster0'
+* DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
