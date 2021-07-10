@@ -10,11 +10,11 @@
 
 ## Features
 
-* Supporting 100 More Languages 
+* ```Supporting 100 More Languages```
 
-* You can Set Your Custom Languages 
+* ```You can Set Your Custom Languages```
 
-* Supporting in Group 
+* ```Supporting in Group```
 
 
 ## Configs 
