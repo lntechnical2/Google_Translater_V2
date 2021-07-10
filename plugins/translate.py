@@ -3,8 +3,10 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-from .helper import databse as data
-from .helper import keybord as key
+from helper.database import data
+from helper.keybord(
+Keybord1, keybord2, keybord3, keybord4, keybord5, keybord6
+)
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
