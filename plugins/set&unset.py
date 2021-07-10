@@ -6,7 +6,7 @@ from pyrogram.types import (
 from helper.database import set,unset 
 from helper.list import list
 
-@Clien.on_message(filters.private &filters.command(['unset']))
+@Client.on_message(filters.private &filters.command(['unset']))
 async def unset(client,message):
 	unset(message.chat.id)
 	await message.reply_text("Successfully removed custom default language")
