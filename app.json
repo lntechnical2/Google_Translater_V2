@@ -1,0 +1,44 @@
+{
+    "name": "Google Translater  V2",
+    "description": "Google Translater Bot v2",
+    "logo": "https://tg-link.herokuapp.com/dl/0/AgADVa4xG8MrSVc.jpg",
+    "keywords": [
+        "Google translater",
+        "Mongo DB"
+    ],
+    "repository": "https://github.com/lntechnical2/Google_Translater_V2",
+    "success_url": "https://telegram.dog/lntechnical",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org ",
+            "value": ""
+        },
+        "TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "DB_NAME":{ 
+               "description":"Your Mongo DB Database Name "
+        
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
