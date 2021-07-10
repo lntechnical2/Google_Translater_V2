@@ -3,14 +3,14 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-from helper.database import data
+from helper.database import find , insert 
 from helper.keybord(
 Keybord1, keybord2, keybord3, keybord4, keybord5, keybord6
 )
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-          data.insert(message.chat.id)
+          insert(message.chat.id)
           await message.reply_text(
           text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",
           reply_to_message_id = message.message_id,
@@ -19,7 +19,7 @@ async def start(client, message):
             
 @Client.on_message(filters.private & filters.text  )
 async def echo(client, message):
-	code = data.find(message.chat.id)
+	code = find(message.chat.id)
 	if code :
 			translator = Translator()
 			translation = translator.translate(message.text,dest = code)
