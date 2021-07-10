@@ -23,7 +23,7 @@ def unset(chat_id):
 	dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":None}})
 
 def find(chat_id):
-	id =  {"_id":user_id}
+	id =  {"_id":chat_id}
 	x = dbcol.find(id)
 	for i in x:
              lgcd = i["lg_code"]
