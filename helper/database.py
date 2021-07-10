@@ -26,4 +26,5 @@ def find(chat_id):
 	id =  {"_id":user_id}
 	x = dbcol.find(id)
 	for i in x:
-		return lgcd = i["lg_code"]	
+             lgcd = i["lg_code"]
+             return lgcd 
