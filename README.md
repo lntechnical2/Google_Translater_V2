@@ -8,6 +8,19 @@
 </p>
 </p>
 
+</p>
+<p align="center">
+  <a href="https://github.com/lntechnical2/Google_Translater_V2/stargazers">
+    <img src="https://img.shields.io/github/stars/lntechnical2/Google_Translater_V2?style=social">
+
+  </a>
+  
+  <a href="https://github.com/lntechnical2/Google_Translater_V2/fork">
+    <img src="https://img.shields.io/github/lntechnical2/Google_Translater_V2?label=Fork&style=social">
+
+  </a>  
+</p>
+
 ## Features
 
 * ```Supporting 100 More Languages```
