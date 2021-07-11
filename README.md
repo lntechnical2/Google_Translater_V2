@@ -29,6 +29,8 @@
 
 * DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
 
-
-[![How To Use ](https://i.ytimg.com/vi/dUYvenXiYKE/maxresdefault.jpg)](https://youtu.be/dUYvenXiYKE-Y?t=35s "How To Use")
-
+## Bot Commands
+> set command
+* `/set language Name` set custom language
+> unset command
+* `/unset` unset custom language
