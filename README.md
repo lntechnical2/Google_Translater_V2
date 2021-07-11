@@ -48,6 +48,14 @@ Licensed works, modifications,
 and larger works may be distributed under different terms and without source code 
 ````
 
+## Support 🇮🇳
+<a href="https://t.me/lntechnical">
+   <p> Telegram </p>
+  </a>
+<a href="https://youtube.com/c/LNtechnical">
+   <p> YouTube </p>
+  </a>
+
 ## Credits
 
 <p align="left">
