@@ -19,10 +19,6 @@ def set(chat_id,lg_code):
 	 dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":lg_code}})
 
 	 	
-	 	
-	 	
-	 
-
 def unset(chat_id):
 	dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":None}})
 
