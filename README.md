@@ -16,7 +16,7 @@
   </a>
   
   <a href="https://github.com/lntechnical2/Google_Translater_V2/fork">
-    <img src="https://img.shields.io/github/lntechnical2/Google_Translater_V2?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/lntechnical2/Google_Translater_V2?label=Fork&style=social">
 
   </a>  
 </p>
