@@ -16,10 +16,8 @@ def insert(chat_id):
             	pass
 
 def set(chat_id,lg_code):
-	 try:
-	 	dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":lg_code}})
-	 except:
-	 	dbcol.insert_one({"_id":chat_id,"lg_code":lg_code})
+	 dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":lg_code}})
+
 	 	
 	 	
 	 	
