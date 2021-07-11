@@ -3,7 +3,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-from helper.database import set,unset , insert
+from helper.database import set,unset ,insert
 from helper.list import list
 
 @Client.on_message(filters.private &filters.command(['unset']))
@@ -14,7 +14,7 @@ async def unsetlg(client,message):
 @Client.on_message(filters.private &filters.command(['set']))
 async def setlg(client,message):
     	    user_id = int(message.chat.id)
-            insert(user_id)
+    	    insert(user_id)
     	    text = message.text
     	    textspit = text.split('/set')
     	    lg_code = textspit[1]
