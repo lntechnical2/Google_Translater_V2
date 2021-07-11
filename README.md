@@ -38,8 +38,6 @@
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/Google_Translater_V2)
 
-## How To Use 
-<img src="https://tg-link.herokuapp.com/dl/0/How_Use_Advance_Google_Translater_Bot.gif" width="40" height="40">
 
 ## Credits
 
