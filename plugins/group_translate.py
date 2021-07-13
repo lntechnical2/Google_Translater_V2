@@ -13,7 +13,7 @@ async def grouptrans(client,message):
 			translation = translator.translate(tr_text,dest = lg_cd)
 			await message.reply_text(translation.text)
 		except :
-			await message.delete()
+			print("error)
 	else:
-			 await message.delete()
+			 print("error")
 			 
