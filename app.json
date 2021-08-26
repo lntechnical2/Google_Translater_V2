@@ -22,7 +22,7 @@
             "value": ""
         },
         "DB_URL": {
-            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "description": "Your Mongo DB URL Obtained From mongodb.com  watch THIS Video https://youtu.be/HhHzCfrqsoE",
             "value": ""
         },
         "DB_NAME":{ 
