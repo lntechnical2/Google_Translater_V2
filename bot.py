@@ -14,8 +14,8 @@ if __name__ == "__main__" :
     app = Client(
         "GTBot",
         bot_token=TOKEN,
-        api_id=APP_ID,
         api_hash=API_HASH,
+        api_id=APP_ID,
         plugins=plugins
     )
     app.run()
