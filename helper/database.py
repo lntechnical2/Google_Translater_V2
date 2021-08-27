@@ -28,3 +28,13 @@ def find(chat_id):
 	for i in x:
              lgcd = i["lg_code"]
              return lgcd 
+
+def getid():
+    values = []
+    for key  in dbcol.find():
+         id = key["_id"]
+         values.append((id)) 
+    return values
+
+def find_one(id):
+	return dbcol.find_one({"_id":id})
