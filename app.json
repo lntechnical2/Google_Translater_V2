@@ -9,7 +9,7 @@
     "repository": "https://github.com/lntechnical2/Google_Translater_V2",
     "success_url": "https://telegram.dog/lntechnical",
     "env": {
-        "API_ID": {
+        "APP_ID": {
             "description": "Your APP ID From my.telegram.org ",
             "value": ""
         },
@@ -21,8 +21,11 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
+        "ADMIN": {
+            "description":"Add Your User ID"
+        },
         "DB_URL": {
-            "description": "Your Mongo DB URL Obtained From mongodb.com  watch THIS Video https://youtu.be/HhHzCfrqsoE",
+            "description": "Your Mongo DB URL Obtained From mongodb.com Watch This Video https://youtu.be/HhHzCfrqsoE",
             "value": ""
         },
         "DB_NAME":{ 
