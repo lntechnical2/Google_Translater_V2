@@ -29,10 +29,13 @@
 
 * ```Supporting in Group```
 
+* ```Supporting Inline```
 
 ## Configs 
 
 * TG_BOT_TOKEN  - Get bot token from @BotFather
+
+* ADMIN         - Your User ID
 
 * API_ID        - From my.telegram.org 
 
@@ -41,6 +44,10 @@
 * DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
 
 * DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
+
+
+## How To Create Data Base Url
+ https://youtu.be/HhHzCfrqsoE
 
 ## Bot Commands
 > set command
