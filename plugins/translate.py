@@ -49,7 +49,7 @@ async def echo(client, message):
 	try:
 		code =find(int(message.chat.id))
 	except Exception as e:
-		await message.reply_text(" Error : {e}\nclick /start ........")
+		await message.reply_text(f" Error : {e}\nclick /start ........")
 		return 
 		
 	if code :
